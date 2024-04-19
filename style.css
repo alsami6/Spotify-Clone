@@ -55,7 +55,7 @@ body{
 }
 
 .library{
-    min-height: 70vh;
+    min-height: 69vh;
     position: relative;
 }
 .footer{
@@ -79,4 +79,45 @@ body{
 
 .spotify-playlists{
     padding: 16px;
+}
+
+.spotify-playlists h2{
+    padding-bottom: 20px;
+}
+
+.card-container{
+    margin: 7px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(27,27,27);
+}
+
+.spotify-playlists .card p{
+    font-size: 12px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.card > *{
+    padding-top: 3px;
+}
+
+.card .play{
+    position: absolute;
+    right: 400px;
+    top: 337px;
+}
+
+.card-img .play{
+    width: 30px;
 }
