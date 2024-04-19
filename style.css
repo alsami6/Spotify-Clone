@@ -5,8 +5,8 @@
 
 
 body{
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 .left{
@@ -23,8 +23,9 @@ body{
     width: 75vw;
 }
 
-.home{
-    
+.logo{
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .home ul li{
@@ -34,6 +35,7 @@ body{
     list-style: none;
     padding-top: 14px;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 .heading{
@@ -53,5 +55,28 @@ body{
 }
 
 .library{
-    min-height: 60vh;
+    min-height: 70vh;
+    position: relative;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.right{
+    margin: 16px 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.header > *{
+    padding: 20px;
+}
+
+.spotify-playlists{
+    padding: 16px;
 }
