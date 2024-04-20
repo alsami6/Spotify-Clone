@@ -61,7 +61,17 @@ body{
 .footer{
     position: absolute;
     bottom: 0;
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+    padding-bottom: 1rem;
 }
+
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+
 
 .right{
     margin: 16px 0px;
