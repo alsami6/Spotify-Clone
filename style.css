@@ -75,6 +75,7 @@ body{
 
 .right{
     margin: 16px 0px;
+    position: relative;
 }
 
 .header{
@@ -100,10 +101,12 @@ body{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 64vh;
 }
 
 .card{
-    width: 200px;
+    width: 195px;
     padding: 10px;
     border-radius: 5px;
     background-color: rgb(27,27,27);
@@ -130,4 +133,56 @@ body{
 
 .card-img .play{
     width: 30px;
+}
+
+
+.singup-btn{
+    background-color: rgb(34, 34, 34);
+    color: rgb(146, 146, 146);
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.buttons > *{
+    margin: 0px 12px;
+}
+
+.singup-btn:hover{
+    font-size: 1.01rem;
+    color: white;
+}
+
+.login-btn{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    width: 80px;
+    opacity: 0.9;
+}
+
+.play-bar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(110, 163, 110);
+    width: 98%;
+    padding: 7px 0px;
+    margin-left: -14px;
+    border-radius: 5px;
+}
+
+.songs-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
